@@ -1,0 +1,321 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP+HmEEtcn/E/4VTPmBIrrB",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/nishant-harinkhede12/Open-AI/blob/main/basic%20Python%20Scripting\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ALNk9qI0nxix",
+        "outputId": "bec702b2-08b6-4487-9453-a961f0b4daad"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello, world!\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Hello, world!\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# declaring a variable and assigning it a string value\n",
+        "name = \"Alice\"\n",
+        "\n",
+        "# printing the value of the variable\n",
+        "print(name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "McREnq5loCDt",
+        "outputId": "f71321e7-8ec2-444a-e1b4-5bf52a313563"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Alice\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# declaring two variables and assigning them integer values\n",
+        "x = 5\n",
+        "y = 10\n",
+        "\n",
+        "# adding the two variables together and assigning the result to a new variable\n",
+        "z = x + y\n",
+        "\n",
+        "# printing the value of the new variable\n",
+        "print(z)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tTFLtMk4oHYw",
+        "outputId": "e9e556c5-10a2-4267-a8c0-0b30eb8d1551"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "15\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# prompting the user to enter the length and width of the rectangle\n",
+        "length = float(input(\"Enter the length of the rectangle: \"))\n",
+        "width = float(input(\"Enter the width of the rectangle: \"))\n",
+        "\n",
+        "# calculating the area of the rectangle\n",
+        "area = length * width\n",
+        "\n",
+        "# printing out the area of the rectangle\n",
+        "print(\"The area of the rectangle is\", area)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "K34MI9k4oQE3",
+        "outputId": "a95e6b47-693c-4ce5-88a3-0eaa1b6b9950"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the length of the rectangle: 10\n",
+            "Enter the width of the rectangle: 15\n",
+            "The area of the rectangle is 150.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Program to check whether a number is even or odd\n",
+        "\n",
+        "number = 6\n",
+        "\n",
+        "if number % 2 == 0:\n",
+        "    print(\"The number is even.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nH5Bf_QxoW85",
+        "outputId": "84fc0dbe-1418-473d-a597-b0c50ef6cd5f"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The number is even.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "number = float(input(\"Enter the number to check its ever or odd: \"))\n",
+        "if number % 2 == 0:\n",
+        "    print(\"The number is even.\")\n",
+        "\n",
+        "else:\n",
+        "    print(\"The number is odd.\")\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5sEVCB69ooYe",
+        "outputId": "faa1a7c5-3f37-451b-fcf1-aa53e78df4ad"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the number to check its ever or odd: 7\n",
+            "The number is odd.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Program to check whether a person is old enough to vote\n",
+        "\n",
+        "age = float(input(\"Enter your age: \"))\n",
+        "\n",
+        "if age >= 18:\n",
+        "    print(\"You are elegible to vote.\")\n",
+        "else:\n",
+        "    print(\"You are not elegible to vote.\")\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CHDMNtGoo-1D",
+        "outputId": "c0ce6a9d-eb35-4deb-ca02-d599aa6e42e0"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter your age: 15\n",
+            "You are not elegible to vote.\n",
+            "Enter your age: 74\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Program to check whether a person is eligible for a loan\n",
+        "\n",
+        "credit_score = float(input(\"Enter your credit scope: \"))\n",
+        "income = float(input(\"Enter your income: \"))\n",
+        "\n",
+        "if credit_score >= 700:\n",
+        "    if income >= 50000:\n",
+        "        print(\"Congratulations! You are eligible for a loan.\")\n",
+        "    else:\n",
+        "        print(\"Sorry, your income is too low.\")\n",
+        "else:\n",
+        "    print(\"Sorry, your credit score is too low.\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4IEyv-fNpGFZ",
+        "outputId": "bae5055a-3662-47a5-d06d-65ca33442ecd"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your credit scope: 1000\n",
+            "Enter your income: 500000\n",
+            "Congratulations! You are eligible for a loan.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "while True:\n",
+        "    try:\n",
+        "        age = int(input(\"Enter your age (or type 'exit' to stop): \"))\n",
+        "\n",
+        "        if age > 100:\n",
+        "            print(\"You are eligible to vote but too old to.\")\n",
+        "        elif age < 18:\n",
+        "            print(\"You are not eligible to vote.\")\n",
+        "        else:\n",
+        "            print(\"You are eligible to vote.\")\n",
+        "    except ValueError:\n",
+        "        print(\"Invalid input. Please enter a valid age or type 'exit' to stop.\")\n",
+        "    except KeyboardInterrupt:\n",
+        "        print(\"\\nProcess interrupted by user. Exiting.\")\n",
+        "        break\n",
+        "\n",
+        "    # To exit the loop if the user types 'exit'\n",
+        "    user_input = input(\"Do you want to check another age? (yes/no): \")\n",
+        "    if user_input.lower() != 'yes':\n",
+        "        break\n",
+        "\n",
+        "print(\"Thank you for using the voting eligibility checker!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lc3nXMJtp-jL",
+        "outputId": "392a6d7b-9203-4436-aed5-083233a8294e"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your age (or type 'exit' to stop): 75\n",
+            "You are eligible to vote.\n",
+            "Do you want to check another age? (yes/no): yes\n",
+            "Enter your age (or type 'exit' to stop): 2\n",
+            "You are not eligible to vote.\n",
+            "Do you want to check another age? (yes/no): no\n",
+            "Thank you for using the voting eligibility checker!\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
